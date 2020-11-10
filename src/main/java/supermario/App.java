@@ -9,45 +9,12 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class App {
-
-    public String answerQuestion1(){
+	public String answerQuestion1(){
         /*
-        Question: are you Fight.java file less than 115 lines?
+        Question: can you save and load your game correctly via a text file, supermario.txt?
         If yes, return yes.
          */
-        return "yes"; // TODO: are you Fight.java file less than 115 lines? If yes, return yes.
-    }
-
-    public String answerQuestion2(){
-        /*
-        Question: can your code run the game correctly?
-        If yes, return yes.
-         */
-        return "yes"; // TODO: can your code run the game correctly?? If yes, return yes.
-    }
-
-    public String answerQuestion3(){
-        /*
-        Question: can your understand the difference between Inheritance and Interface?
-        If yes, return yes.
-         */
-        return "yes"; // TODO: If yes, return yes.
-    }
-
-    public String answerQuestion4(){
-        /*
-        Question: do your know something about the super keyword?
-        If yes, return yes.
-         */
-        return "yes"; // TODO: If yes, return yes.
-    }
-
-    public String answerQuestion5(){
-        /*
-        Question: do your know something about the isinstanceof keyword?
-        If yes, return yes.
-         */
-        return "yes"; // TODO: If yes, return yes.
+        return "no"; // TODO: can you save and load your game correctly via a text file, supermario.txt? If yes, return yes.
     }
 
     public static void main(String[] args) {
@@ -103,6 +70,12 @@ public class App {
                     fight1vs3.fightAndAfterProcessing(roundOfGame);
                     roundOfGame ++;
                     break;
+				case 888:
+				    // TODO: save the current state of the game to supermario.txt
+					break;
+				case 999:
+					// TODO: load the state of the game saved in supermario.txt, to the current game.
+					break;
                 default:
                     System.out.println("Error: should input an integer: 1, 2, or 3");
             }

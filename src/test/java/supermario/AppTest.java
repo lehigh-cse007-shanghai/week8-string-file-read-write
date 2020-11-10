@@ -37,45 +37,4 @@ public class AppTest {
     String correct_answer = "YES";
     assertEquals(result, correct_answer);
   }
-
-  @Test
-  public void test2(){
-    App app = new App();
-
-    String result = app.answerQuestion2().toUpperCase();
-
-    String correct_answer = "YES";
-    assertEquals(result, correct_answer);
-  }
-
-  @Test
-  public void test3(){
-    App app = new App();
-
-    String result = app.answerQuestion3().toUpperCase();
-
-    String correct_answer = "YES";
-    assertEquals(result, correct_answer);
-  }
-
-  @Test
-  public void test4(){
-    App app = new App();
-
-    String result = app.answerQuestion3().toUpperCase();
-
-    String correct_answer = "YES";
-    assertEquals(result, correct_answer);
-  }
-
-  @Test
-  public void test5(){
-    App app = new App();
-
-    String result = app.answerQuestion3().toUpperCase();
-
-    String correct_answer = "YES";
-    assertEquals(result, correct_answer);
-  }
-
 }

@@ -34,9 +34,9 @@ class SuperMario extends Monster{
     }
 
     public void growAfterAWin(){
-        this.strength += (new Random()).nextInt(4) / 3;
-        this.agility +=  (new Random()).nextInt(4) / 3;
-        this.intelligence +=  (new Random()).nextInt(4) / 3;
+        this.strength += (new Random()).nextInt(6) / 2;
+        this.agility +=  (new Random()).nextInt(6) / 2;
+        this.intelligence +=  (new Random()).nextInt(6) / 2;
     }
 }
 
