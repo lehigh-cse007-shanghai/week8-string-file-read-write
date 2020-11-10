@@ -77,7 +77,7 @@ public class App {
 					// TODO: load the state of the game saved in supermario.txt, to the current game.
 					break;
                 default:
-                    System.out.println("Error: should input an integer: 1, 2, or 3");
+                    System.out.println("Error: should input an integer: 1, 2, 3, 888, or 999");
             }
         }
 
